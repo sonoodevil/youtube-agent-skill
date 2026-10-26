@@ -75,6 +75,7 @@ python3 skills/yt-edit/deadair.py transcript.srt               # edit decision l
 python3 skills/yt-chapters/chapters.py transcript.srt          # validated chapters
 python3 skills/yt-retention/retention.py retention.csv         # where they left, and why
 python3 skills/yt-viral/swipe.py collected.json --min 2.0      # outliers by own-channel multiple
+python3 skills/yt-studio/studio.py talk.mp4 --bg studio.jpg --logo logo.png --intro in.mp4 --outro out.mp4  # needs mediapipe
 ```
 
 ## The fine print
